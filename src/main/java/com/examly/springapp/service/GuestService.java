@@ -21,9 +21,6 @@ public class GuestService {
         return guestRepo.findAll();
     }
 
-    // public Guest getGuestById(int id){
-    //     return guestRepo.findById(id).get();
-    // }
 
     public Guest updateGuest(Guest guest,int id){
         guest.setGuestId(id);

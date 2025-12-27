@@ -13,4 +13,6 @@ public interface RoomRepo extends JpaRepository<Room, Long> {
     List<Room> findRoomsByCategoryName(@Param("categoryName") String categoryName);
 
     List<Room> findByRoomNumber(String roomNumber);
+
+    List<Room> findByRoomCategoryCategoryName(String categoryName);
 }

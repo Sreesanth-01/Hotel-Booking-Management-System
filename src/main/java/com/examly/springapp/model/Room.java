@@ -58,4 +58,5 @@ public class Room {
     public void setRoomCategory(RoomCategory roomCategory) {
         this.roomCategory = roomCategory;
     }
+
 }

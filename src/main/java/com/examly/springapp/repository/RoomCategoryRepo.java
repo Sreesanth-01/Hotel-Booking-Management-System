@@ -11,4 +11,8 @@ import com.examly.springapp.model.RoomCategory;
 public interface RoomCategoryRepo extends JpaRepository<RoomCategory, Long> {
 
     Optional<RoomCategory> findByCategoryName(String categoryName);
+
+    Optional<RoomCategory> findById(long CategoryId);
+
+    void deleteById(long categoryId);
 }

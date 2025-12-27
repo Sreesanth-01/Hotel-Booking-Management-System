@@ -12,7 +12,7 @@ public class RoomCategory {
     @Column(name = "category_id")
     private Long categoryId;
 
-    @Column(name = "category_name")   // ✅ THIS FIXES THE TEST
+    @Column(name = "category_name") 
     @JsonProperty("categoryName")
     private String categoryName;
 
@@ -31,4 +31,5 @@ public class RoomCategory {
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
     }
+
 }
