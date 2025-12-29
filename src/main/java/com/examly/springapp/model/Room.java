@@ -59,24 +59,24 @@ public class Room {
         this.roomCategory = roomCategory;
     }
 
-    public Object getRoomType() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getRoomType'");
-    }
+    // public Object getRoomType() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'getRoomType'");
+    // }
 
-    public Object getPrice() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getPrice'");
-    }
+    // public Object getPrice() {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'getPrice'");
+    // }
 
-    public void setRoomType(Object roomType) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setRoomType'");
-    }
+    // public void setRoomType(Object roomType) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setRoomType'");
+    // }
 
-    public void setPrice(Object price) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setPrice'");
-    }
+    // public void setPrice(Object price) {
+    //     // TODO Auto-generated method stub
+    //     throw new UnsupportedOperationException("Unimplemented method 'setPrice'");
+    // }
 
 }

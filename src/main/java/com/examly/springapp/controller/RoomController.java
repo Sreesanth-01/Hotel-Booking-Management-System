@@ -46,37 +46,37 @@ public class RoomController {
         return new ResponseEntity<>(roomRepo.save(room), HttpStatus.CREATED);
     }
 
-        @PutMapping("/{id}")
-    public ResponseEntity<Room> updateRoom(
-    @PathVariable Long id,
-    @RequestBody Room room) {
+    @PutMapping("/{id}")
+public ResponseEntity<Room> updateRoom(
+@PathVariable Long id,
+@RequestBody Room room) {
 
-    room.setRoomId(id);
+room.setRoomId(id);
 
-    if (room.getRoomCategory() != null) {
-    RoomCategory category = null;
+if (room.getRoomCategory() != null) {
+RoomCategory category = null;
 
-    // Handle categoryName
-    if (room.getRoomCategory().getCategoryName() != null) {
-    String name = room.getRoomCategory().getCategoryName();
-    category = roomCategoryRepo.findByCategoryName(name)
-    .orElseGet(() -> {
-    RoomCategory c = new RoomCategory();
-    c.setCategoryName(name);
-    return roomCategoryRepo.save(c);
-    });
-    }
-    // Handle categoryId
-    else if (room.getRoomCategory().getCategoryId() != null) {
-    Long categoryId = room.getRoomCategory().getCategoryId();
-    category = roomCategoryRepo.findById(categoryId).orElse(null);
-    }
+// Handle categoryName
+if (room.getRoomCategory().getCategoryName() != null) {
+String name = room.getRoomCategory().getCategoryName();
+category = roomCategoryRepo.findByCategoryName(name)
+.orElseGet(() -> {
+RoomCategory c = new RoomCategory();
+c.setCategoryName(name);
+return roomCategoryRepo.save(c);
+});
+}
+// Handle categoryId
+else if (room.getRoomCategory().getCategoryId() != null) {
+Long categoryId = room.getRoomCategory().getCategoryId();
+category = roomCategoryRepo.findById(categoryId).orElse(null);
+}
 
-    room.setRoomCategory(category);
-    }
+room.setRoomCategory(category);
+}
 
-    return ResponseEntity.ok(roomRepo.save(room));
-    }
+return ResponseEntity.ok(roomRepo.save(room));
+}
 
 
 @GetMapping
