@@ -17,6 +17,7 @@ D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\service\GuestServiceImpl.java
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\controller\BookingController.java
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\model\Payment.java
+D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\aop\LoggingAspect.java
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\exception\GlobalExceptionHandler.java
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\repository\PaymentRepo.java
 D:\Coding\Projects\Backend\2f0a8356-2a10-4f09-9699-b43eed166b76-075bf8b8-f1b3-42a4-8886-a217ea017dd2\springapp\src\main\java\com\examly\springapp\service\BookingServiceImpl.java
