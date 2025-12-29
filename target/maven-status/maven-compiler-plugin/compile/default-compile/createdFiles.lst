@@ -1,5 +1,3 @@
-com\examly\springapp\SpringappApplication.class
-com\examly\springapp\repository\GuestRepo.class
 com\examly\springapp\repository\PaymentRepo.class
 com\examly\springapp\repository\RoomCategoryRepo.class
 com\examly\springapp\service\RoomCategoryServiceImpl.class
@@ -8,13 +6,7 @@ com\examly\springapp\model\RoomCategory.class
 com\examly\springapp\controller\BookingController.class
 com\examly\springapp\controller\RoomCategoryController.class
 com\examly\springapp\exception\GlobalExceptionHandler.class
-com\examly\springapp\model\Booking.class
 com\examly\springapp\service\PaymentServiceImpl.class
 com\examly\springapp\model\Guest.class
 com\examly\springapp\model\Payment.class
-com\examly\springapp\controller\PaymentController.class
-com\examly\springapp\service\GuestServiceImpl.class
-com\examly\springapp\service\BookingServiceImpl.class
-com\examly\springapp\repository\BookingRepo.class
-com\examly\springapp\service\BookingService.class
 com\examly\springapp\service\PaymentService.class
